@@ -4,12 +4,8 @@ import logging
 logging.basicConfig(filename='../../logs/spam_messages_logs', filemode='w', level=logging.DEBUG, format=f'[%(asctime)s]-[%(levelname)s]-"%(message)s"')
 
 
-class HandlerSpamMessages:
-    def __init__(self, data_of_tg):
-        self.saver_spam_messages = SaverSpamMessages(**data_of_tg)
-        logging.info('Постановка хендлера')
-
-    async def handle(self):
+def handler_spam_messages(func):
+    async def wrapper(self):
         while True:
             last_message = await self.saver_spam_messages.client.get_messages(self.saver_spam_messages.chat, limit=1)
             if last_message[0].message == 'flag TRUE':
@@ -17,9 +13,19 @@ class HandlerSpamMessages:
                 await asyncio.sleep(60)
                 continue
             else:
-                logging.debug('Поймал новые сообщения')
-                await self.saver_spam_messages.run_case()
-                continue
+                await func(self)
+    return wrapper
+
+
+class HandlerSpamMessages:
+    def __init__(self, data_of_tg):
+        self.saver_spam_messages = SaverSpamMessages(**data_of_tg)
+        logging.info('Постановка хендлера')
+
+    @handler_spam_messages
+    async def handle(self):
+        logging.debug('Поймал новые сообщения')
+        await self.saver_spam_messages.run_case()
 
 
 if __name__ == '__main__':
