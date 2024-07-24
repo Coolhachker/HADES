@@ -1,11 +1,16 @@
 from src.Tools_to_save_spam_messages.save_spam_message import SaverSpamMessages
 import asyncio
 import logging
-logging.basicConfig(filename='../../logs/spam_messages_logs', filemode='w', level=logging.DEBUG, format=f'[%(asctime)s]-[%(levelname)s]-"%(message)s"')
+from src.set_logger import ColoredFormat
+file_handler = logging.FileHandler('../../logs/spam_messages_logs.log', mode='w')
+file_handler.setFormatter(ColoredFormat())
+
+logging.getLogger().addHandler(file_handler)
+logging.getLogger().setLevel(logging.DEBUG)
 
 
 def handler_spam_messages(func):
-    async def wrapper(self):
+    async def handler_spam(self):
         while True:
             last_message = await self.saver_spam_messages.client.get_messages(self.saver_spam_messages.chat, limit=1)
             if last_message[0].message == 'flag TRUE':
@@ -14,7 +19,7 @@ def handler_spam_messages(func):
                 continue
             else:
                 await func(self)
-    return wrapper
+    return handler_spam
 
 
 class HandlerSpamMessages:

@@ -1,7 +1,7 @@
 from telethon import TelegramClient
 import re
 import logging
-logger = logging.getLogger()
+logger = logging.getLogger(__name__)
 
 
 class SaverSpamMessages:
