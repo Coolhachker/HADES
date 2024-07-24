@@ -30,12 +30,7 @@ class SpamDataset:
         return Dataset.from_tensor_slices(list_with_tensors)
 
     def set_label_to_spam(self, dataset):
-        dataset = dataset.map(self.vectorization_layer.set_label_to_sequences_spam)
+        dataset.map(self.vectorization_layer.set_label_to_sequences_spam)
 
     def setting_spam_dataset(self):
         self.Dataset_from_spam_messages.cache().prefetch(AUTOTUNE)
-
-
-if __name__ == '__main__':
-    SpamDataset = SpamDataset('../../data/spam_messages.txt', '')
-    print(SpamDataset.Dataset_from_spam_messages)
