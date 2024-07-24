@@ -32,3 +32,10 @@ class VectorizationData:
         with open(self.path_to_file) as file:
             for string_ in file:
                 self.vectorization_layer.adapt(string_)
+
+    @property
+    def return_layer(self):
+        return self.vectorization_layer
+
+    def __new__(cls, *args, **kwargs):
+        return cls.return_layer
