@@ -4,10 +4,11 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-class SaverSpamMessages:
-    def __init__(self, api_id, api_hash, session_name):
+class SaverMessages:
+    def __init__(self, file, api_id, api_hash, session_name):
         self.chat = 'https://t.me/kefvkeve'
         self.spam_dict_urls_and_ids = {}
+        self.file = file
 
         self.client = TelegramClient(session_name, api_id, api_hash)
         self.client.start()
@@ -27,9 +28,8 @@ class SaverSpamMessages:
             else:
                 continue
 
-    @classmethod
-    def write_spam_message_in_file(cls, message_text):
-        with open('../../data/spam_messages.txt', 'a') as file:
+    def write_spam_message_in_file(self, message_text):
+        with open(f'../../data/{self.file}', 'a') as file:
             file.write(message_text + '\n')
 
     async def processing_spam_message(self, message):
@@ -41,7 +41,7 @@ class SaverSpamMessages:
         elif message.text == 'flag TRUE':
             return False
         else:
-            self.write_spam_message_in_file(message.text)
+            self.write_spam_message_in_file(message.text.replace('\n', ' '))
         await self.delete_message(message.id)
 
     async def iteration_messages_from_chat(self, chat_url):

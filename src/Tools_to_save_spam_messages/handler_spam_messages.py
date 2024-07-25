@@ -1,4 +1,4 @@
-from src.Tools_to_save_spam_messages.save_spam_message import SaverSpamMessages
+from src.Tools_to_save_spam_messages.save_spam_message import SaverMessages
 import asyncio
 import logging
 from src.set_logger import ColoredFormat
@@ -22,18 +22,13 @@ def handler_spam_messages(func):
     return handler_spam
 
 
-class HandlerSpamMessages:
-    def __init__(self, data_of_tg):
-        self.saver_spam_messages = SaverSpamMessages(**data_of_tg)
+class HandlerMessages:
+    def __init__(self, data_of_tg, file):
+        self.saver_messages = SaverMessages(file, **data_of_tg)
+        self.path_to_file = file
         logging.info('Постановка хендлера')
 
     @handler_spam_messages
     async def handle(self):
         logging.debug('Поймал новые сообщения')
-        await self.saver_spam_messages.run_case()
-
-
-if __name__ == '__main__':
-    data = {'api_id': 19567654, 'api_hash': '7ec7d44a4889e041dd667dc760b323e1', 'session_name': 'session'}
-    handler = HandlerSpamMessages(data)
-    asyncio.get_event_loop().run_until_complete(handler.handle())
+        await self.saver_messages.run_case()

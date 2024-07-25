@@ -9,7 +9,7 @@ import os
 class Education:
     def __init__(self):
         self.dataset_object = SpamDataset('../../data/spam_messages.txt', '')
-        self.dataset = self.dataset_object.Dataset_from_spam_messages
+        self.dataset = self.dataset_object.HadesDataset
         vocab_size = len(self.dataset_object.vectorization_layer.vectorization_layer.get_vocabulary())
         embedding_dim = 16
 
