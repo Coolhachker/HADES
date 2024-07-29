@@ -3,3 +3,4 @@ colorlog~=6.8.2
 keras~=2.15.0
 tensorflow~=2.15.0
 pandas~=2.2.2
+python-dotenv~=1.0.1

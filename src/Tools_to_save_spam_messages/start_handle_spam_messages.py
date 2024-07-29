@@ -1,4 +1,4 @@
-from src.Tools_to_save_spam_messages.handler_spam_messages import HandlerMessages
+from handler_spam_messages import HandlerMessages
 import asyncio
 
 
