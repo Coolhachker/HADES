@@ -1,6 +1,7 @@
 from telethon import TelegramClient
 import re
 import logging
+from telethon.sessions import MemorySession
 logger = logging.getLogger(__name__)
 
 
@@ -16,6 +17,7 @@ class SaverMessages:
     async def run_case(self):
         await self.get_spam_ids()
         await self.save_spam_message()
+        self.spam_dict_urls_and_ids.clear()
 
     async def save_spam_message(self):
         for chat_url in self.spam_dict_urls_and_ids.keys():
@@ -35,9 +37,12 @@ class SaverMessages:
     async def processing_spam_message(self, message):
         logger.debug(f'Функция используется под сообщением: {message.text}')
         if re.search(r'https://t\.me/', message.text):
-            id_message = int(message.text.split('/')[-1])
-            chat_url = re.findall(r'https://t\.me/.*?/', message.text)[0]
-            self.save_spam_ids(chat_url, id_message)
+            try:
+                id_message = int(message.text.split('/')[-1])
+                chat_url = re.findall(r'https://t\.me/.*?/', message.text)[0]
+                self.save_spam_ids(chat_url, id_message)
+            except ValueError:
+                self.write_spam_message_in_file(message.text.replace('\n', ' '))
         elif message.text == 'flag TRUE':
             return False
         else:
@@ -45,12 +50,14 @@ class SaverMessages:
         await self.delete_message(message.id)
 
     async def iteration_messages_from_chat(self, chat_url):
-        messages_from_chat = await self.client.get_messages(chat_url, limit=10000)
-        for message in messages_from_chat:
-            if message.id in self.spam_dict_urls_and_ids[chat_url]:
-                self.write_spam_message_in_file(message.message.replace('\n', ' '))
-                self.spam_dict_urls_and_ids[chat_url].remove(message.id)
-            else:
+        logger.info(f'Идет итерация по сообщениям из чата: {chat_url}')
+        for message in self.spam_dict_urls_and_ids[chat_url]:
+            try:
+                logger.debug(f'Идет итерация чата: {chat_url} по сообщению: {message}')
+                user_message = await self.client.get_messages(chat_url, ids=message)
+                self.write_spam_message_in_file(user_message.message.replace('\n', ''))
+            except AttributeError as _ex:
+                logger.debug(f'Сообщение: {message} не удалось получить из чата {chat_url}')
                 continue
 
     def save_spam_ids(self, chat_url, spam_id):

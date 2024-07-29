@@ -2,6 +2,7 @@ from src.Tools_to_save_spam_messages.save_spam_message import SaverMessages
 import asyncio
 import logging
 from src.set_logger import ColoredFormat
+from src.Tools_to_save_spam_messages.convert_to_csv import CSVConverterFromTxt
 file_handler = logging.FileHandler('../../logs/spam_messages_logs.log', mode='w')
 file_handler.setFormatter(ColoredFormat())
 
@@ -12,7 +13,7 @@ logging.getLogger().setLevel(logging.DEBUG)
 def handler_spam_messages(func):
     async def handler_spam(self):
         while True:
-            last_message = await self.saver_spam_messages.client.get_messages(self.saver_spam_messages.chat, limit=1)
+            last_message = await self.saver_messages.client.get_messages(self.saver_messages.chat, limit=1)
             if last_message[0].message == 'flag TRUE':
                 logging.debug('Ожидаю новых сообщений')
                 await asyncio.sleep(60)
@@ -32,3 +33,5 @@ class HandlerMessages:
     async def handle(self):
         logging.debug('Поймал новые сообщения')
         await self.saver_messages.run_case()
+        converter = CSVConverterFromTxt('../../data/spam_messages.txt')
+        converter.convert_to_csv()
