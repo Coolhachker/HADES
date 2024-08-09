@@ -34,5 +34,11 @@ class HandlerMessages:
     async def handle(self):
         logging.debug('Поймал новые сообщения')
         await self.saver_messages.run_case()
-        converter = CSVConverterFromTxt('../../data/spam_messages.txt', self.file_csv)
+        converter = CSVConverterFromTxt(f'../../data/{self.path_to_file}', self.file_csv)
         converter.convert_to_csv()
+
+    async def get_ham_messages(self):
+        await self.saver_messages.get_messages_from_another_chats('configs.json')
+        converter = CSVConverterFromTxt(f'../../data/{self.path_to_file}', self.file_csv)
+        converter.convert_to_csv()
+

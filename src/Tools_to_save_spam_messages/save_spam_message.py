@@ -1,7 +1,7 @@
 from telethon import TelegramClient
 import re
 import logging
-from telethon.sessions import MemorySession
+import json
 logger = logging.getLogger(__name__)
 
 
@@ -55,7 +55,7 @@ class SaverMessages:
             try:
                 logger.debug(f'Идет итерация чата: {chat_url} по сообщению: {message}')
                 user_message = await self.client.get_messages(chat_url, ids=message)
-                self.write_spam_message_in_file(user_message.message.replace('\n', '').replace(';', ''))
+                self.write_spam_message_in_file(user_message.message.replace('\n', ' ').replace(';', ''))
             except Exception as _ex:
                 logger.debug(f'Сообщение: {message} не удалось получить из чата {chat_url}')
                 continue
@@ -68,3 +68,18 @@ class SaverMessages:
 
     async def delete_message(self, message_id):
         await self.client.delete_messages(self.chat, message_id)
+
+    async def get_messages_from_another_chats(self, config_file_json):
+        configs = json.load(config_file_json)
+        channels = configs['channels']
+        for channel in channels:
+            count: int = 0
+            for message in self.client.iter_messages(channel):
+                try:
+                    if count != 75:
+                        self.write_spam_message_in_file(message.text.replace('\n', ' ').replace(';', ''))
+                        count += 1
+                    else:
+                        break
+                except:
+                    continue
