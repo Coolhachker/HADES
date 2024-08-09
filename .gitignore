@@ -1,2 +1,5 @@
 /venv/
 /.idea/
+/data/
+/logs/
+/src/Tools_to_save_spam_messages/session.session

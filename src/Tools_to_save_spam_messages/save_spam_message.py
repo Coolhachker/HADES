@@ -42,11 +42,11 @@ class SaverMessages:
                 chat_url = re.findall(r'https://t\.me/.*?/', message.text)[0]
                 self.save_spam_ids(chat_url, id_message)
             except ValueError:
-                self.write_spam_message_in_file(message.text.replace('\n', ' '))
+                self.write_spam_message_in_file(message.text.replace('\n', ' ').replace(';', ''))
         elif message.text == 'flag TRUE':
             return False
         else:
-            self.write_spam_message_in_file(message.text.replace('\n', ' '))
+            self.write_spam_message_in_file(message.text.replace('\n', ' ').replace(';', ''))
         await self.delete_message(message.id)
 
     async def iteration_messages_from_chat(self, chat_url):
@@ -55,8 +55,8 @@ class SaverMessages:
             try:
                 logger.debug(f'Идет итерация чата: {chat_url} по сообщению: {message}')
                 user_message = await self.client.get_messages(chat_url, ids=message)
-                self.write_spam_message_in_file(user_message.message.replace('\n', ''))
-            except AttributeError as _ex:
+                self.write_spam_message_in_file(user_message.message.replace('\n', '').replace(';', ''))
+            except Exception as _ex:
                 logger.debug(f'Сообщение: {message} не удалось получить из чата {chat_url}')
                 continue
 

@@ -6,1333 +6,328 @@
 [DEBUG] | [_connect] | Starting receive loop
 [INFO] | [_connect] | Connection to 149.154.167.51:443/TcpFull complete!
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031623770397508 to InvokeWithLayerRequest (7fe285fb8b20)
+[DEBUG] | [get] | Assigned msg_id = 7400787339180784544 to InvokeWithLayerRequest (7fc2af7f28b0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 80 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_bad_server_salt] | Handling bad salt for message 7397031623770397508
+[DEBUG] | [_handle_bad_server_salt] | Handling bad salt for message 7400787339180784544
 [DEBUG] | [_handle_bad_server_salt] | 1 message(s) will be resent
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031624061738336 to InvokeWithLayerRequest (7fe285fb8b20)
+[DEBUG] | [get] | Assigned msg_id = 7400787339519772848 to InvokeWithLayerRequest (7fc2af7f28b0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 80 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031624065033284 to MsgsAck (7fe285fb8c70)
+[DEBUG] | [get] | Assigned msg_id = 7400787339524512608 to MsgsAck (7fc2af7f2a00)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
 [DEBUG] | [_handle_container] | Handling container
 [DEBUG] | [_handle_new_session_created] | Handling new session created
-[DEBUG] | [_handle_ack] | Handling acknowledge for [7397031624061738336]
+[DEBUG] | [_handle_ack] | Handling acknowledge for [7400787339519772848]
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031624061738336
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787339519772848
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031624465393388 to GetUsersRequest (7fe285fb8ee0)
+[DEBUG] | [get] | Assigned msg_id = 7400787340049512228 to GetUsersRequest (7fc2af7f2f70)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 32 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031624467892972 to MsgsAck (7fe285fb8be0)
+[DEBUG] | [get] | Assigned msg_id = 7400787340052045184 to MsgsAck (7fc2af7f2970)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 60 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031624465393388
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787340049512228
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031624991809216 to GetStateRequest (7fe285fb8ee0)
+[DEBUG] | [get] | Assigned msg_id = 7400787340823559724 to GetStateRequest (7fc2af7f2f70)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 20 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031624995173776 to MsgsAck (7fe285fb8ac0)
+[DEBUG] | [get] | Assigned msg_id = 7400787340826423608 to MsgsAck (7fc2acd3d130)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031624991809216
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787340823559724
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031625493126240 to GetUsersRequest (7fe285fb8b50)
+[DEBUG] | [get] | Assigned msg_id = 7400787341204203568 to GetUsersRequest (7fc2af7f28e0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 32 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031625495657292 to MsgsAck (7fe285ff09d0)
+[DEBUG] | [get] | Assigned msg_id = 7400787341210588416 to MsgsAck (7fc2af911760)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031625493126240
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787341204203568
 [DEBUG] | [_recv_loop] | Receiving items from the network...
 [INFO] | [__init__] | Постановка хендлера
-[DEBUG] | [get] | Assigned msg_id = 7397031625942905748 to ResolveUsernameRequest (7fe285ff0cd0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 32 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031625944305744 to MsgsAck (7fe285fb8b50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031625942905748
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031626344713536 to GetHistoryRequest (7fe285ff0c40)
+[DEBUG] | [get] | Assigned msg_id = 7400787341696499788 to GetHistoryRequest (7fc2af911ac0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 72 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031626346181240 to MsgsAck (7fe285ff0820)
+[DEBUG] | [get] | Assigned msg_id = 7400787341698180160 to MsgsAck (7fc2af7f28e0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031626344713536
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787341696499788
 [DEBUG] | [_recv_loop] | Receiving items from the network...
 [DEBUG] | [handle] | Поймал новые сообщения
-[DEBUG] | [get] | Assigned msg_id = 7397031626700081196 to GetHistoryRequest (7fe2860073d0)
+[DEBUG] | [get] | Assigned msg_id = 7400787342199275932 to GetHistoryRequest (7fc2af911640)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 72 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031626702413884 to MsgsAck (7fe285ff0400)
+[DEBUG] | [get] | Assigned msg_id = 7400787342201522788 to MsgsAck (7fc2af911940)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031626700081196
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787342199275932
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/supercellchat/3347504
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504]}
-[DEBUG] | [get] | Assigned msg_id = 7397031628028068512 to DeleteMessagesRequest (7fe286055880)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1550236
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236]}
+[DEBUG] | [get] | Assigned msg_id = 7400787343348747216 to DeleteMessagesRequest (7fc2af9787c0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031628029709784 to MsgsAck (7fe286007340)
+[DEBUG] | [get] | Assigned msg_id = 7400787343351663552 to MsgsAck (7fc2af974070)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031628028068512
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787343348747216
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/BloxFruitsTradeChat/3701690
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690]}
-[DEBUG] | [get] | Assigned msg_id = 7397031628496236768 to DeleteMessagesRequest (7fe285fb8f40)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1550024
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024]}
+[DEBUG] | [get] | Assigned msg_id = 7400787343961255988 to DeleteMessagesRequest (7fc2af7f2e50)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031628498868912 to MsgsAck (7fe286007490)
+[DEBUG] | [get] | Assigned msg_id = 7400787343964555704 to MsgsAck (7fc2af911fd0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031628496236768
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787343961255988
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/BloxFruitsTradeChat/3702156
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156]}
-[DEBUG] | [get] | Assigned msg_id = 7397031628896020856 to DeleteMessagesRequest (7fe285fb8f40)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1550024
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024]}
+[DEBUG] | [get] | Assigned msg_id = 7400787344865418996 to DeleteMessagesRequest (7fc2af911e80)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031628898764580 to MsgsAck (7fe285ff0ee0)
+[DEBUG] | [get] | Assigned msg_id = 7400787344868474568 to MsgsAck (7fc2af7f2880)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031628896020856
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787344865418996
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/readovchat/17246012
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012]}
-[DEBUG] | [get] | Assigned msg_id = 7397031629356217352 to DeleteMessagesRequest (7fe286007310)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1549927
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024, 1549927]}
+[DEBUG] | [get] | Assigned msg_id = 7400787345452083196 to DeleteMessagesRequest (7fc2af7f2e50)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031629358421292 to MsgsAck (7fe286055850)
+[DEBUG] | [get] | Assigned msg_id = 7400787345453875148 to MsgsAck (7fc2af978790)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031629356217352
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787345452083196
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7562105
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105]}
-[DEBUG] | [get] | Assigned msg_id = 7397031629840032544 to DeleteMessagesRequest (7fe285fb8f40)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1549771
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024, 1549927, 1549771]}
+[DEBUG] | [get] | Assigned msg_id = 7400787346033315264 to DeleteMessagesRequest (7fc2af7f28b0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031629842764824 to MsgsAck (7fe285ff0100)
+[DEBUG] | [get] | Assigned msg_id = 7400787346035871112 to MsgsAck (7fc2af978c10)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031629840032544
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787346033315264
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatzvz/18308157
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105], 'https://t.me/chatzvz/': [18308157]}
-[DEBUG] | [get] | Assigned msg_id = 7397031630272812812 to DeleteMessagesRequest (7fe285ff0dc0)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1549467
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024, 1549927, 1549771, 1549467]}
+[DEBUG] | [get] | Assigned msg_id = 7400787346679978932 to DeleteMessagesRequest (7fc2af911fa0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031630275612800 to MsgsAck (7fe285ff0b80)
+[DEBUG] | [get] | Assigned msg_id = 7400787346681515300 to MsgsAck (7fc2af9110d0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031630272812812
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787346679978932
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatik_piarn/150908052
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052]}
-[DEBUG] | [get] | Assigned msg_id = 7397031630704632728 to DeleteMessagesRequest (7fe285fb8f40)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1549430
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024, 1549927, 1549771, 1549467, 1549430]}
+[DEBUG] | [get] | Assigned msg_id = 7400787347486391628 to DeleteMessagesRequest (7fc2af972eb0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031630707520452 to MsgsAck (7fe286007310)
+[DEBUG] | [get] | Assigned msg_id = 7400787347487970912 to MsgsAck (7fc2af7f2a00)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031630704632728
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787347486391628
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7562247
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052]}
-[DEBUG] | [get] | Assigned msg_id = 7397031631136280980 to DeleteMessagesRequest (7fe285fb88e0)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1548226
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024, 1549927, 1549771, 1549467, 1549430, 1548226]}
+[DEBUG] | [get] | Assigned msg_id = 7400787348296138368 to DeleteMessagesRequest (7fc2af7f2b50)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031631138913124 to MsgsAck (7fe285ff02e0)
+[DEBUG] | [get] | Assigned msg_id = 7400787348298259340 to MsgsAck (7fc2af911070)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031631136280980
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787348296138368
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatik_piarn/150908128
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128]}
-[DEBUG] | [get] | Assigned msg_id = 7397031631613753288 to DeleteMessagesRequest (7fe2860074c0)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1548198
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024, 1549927, 1549771, 1549467, 1549430, 1548226, 1548198]}
+[DEBUG] | [get] | Assigned msg_id = 7400787349415742124 to DeleteMessagesRequest (7fc2af7f2b50)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031631616061180 to MsgsAck (7fe285ff0ac0)
+[DEBUG] | [get] | Assigned msg_id = 7400787349418162552 to MsgsAck (7fc2af9112b0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031631613753288
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787349415742124
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatik_piarn/150908139
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139]}
-[DEBUG] | [get] | Assigned msg_id = 7397031632409792512 to DeleteMessagesRequest (7fe28604ff70)
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1546754
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1550236, 1550024, 1550024, 1549927, 1549771, 1549467, 1549430, 1548226, 1548198, 1546754]}
+[DEBUG] | [get] | Assigned msg_id = 7400787350277537552 to DeleteMessagesRequest (7fc2af972eb0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031632412448496 to MsgsAck (7fe285ff0af0)
+[DEBUG] | [get] | Assigned msg_id = 7400787350280122008 to MsgsAck (7fc2af911850)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031632409792512
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7562327
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139]}
-[DEBUG] | [get] | Assigned msg_id = 7397031632886775584 to DeleteMessagesRequest (7fe28604ff70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031632889412492 to MsgsAck (7fe285ff0e80)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031632886775584
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7562354
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139]}
-[DEBUG] | [get] | Assigned msg_id = 7397031633370164484 to DeleteMessagesRequest (7fe285fb8be0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031633374208064 to MsgsAck (7fe285ff09d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031633370164484
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7562367
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139]}
-[DEBUG] | [get] | Assigned msg_id = 7397031633820372196 to DeleteMessagesRequest (7fe285fb8b50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031633824267952 to MsgsAck (7fe286007340)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031633820372196
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7562426
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139]}
-[DEBUG] | [get] | Assigned msg_id = 7397031634283036800 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031634285284608 to MsgsAck (7fe285ff0910)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031634283036800
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7562354
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139]}
-[DEBUG] | [get] | Assigned msg_id = 7397031634783527940 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031634785788148 to MsgsAck (7fe285ff0400)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031634783527940
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610602
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139], 'https://t.me/p2pdropi/': [12610602]}
-[DEBUG] | [get] | Assigned msg_id = 7397031635269367784 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031635272067636 to MsgsAck (7fe285ff0ee0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031635269367784
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610599
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139], 'https://t.me/p2pdropi/': [12610602, 12610599]}
-[DEBUG] | [get] | Assigned msg_id = 7397031635849819748 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031635852444260 to MsgsAck (7fe285fb8d60)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031635849819748
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610598
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598]}
-[DEBUG] | [get] | Assigned msg_id = 7397031636556575988 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031636559272024 to MsgsAck (7fe285ff0100)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031636556575988
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610606
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606]}
-[DEBUG] | [get] | Assigned msg_id = 7397031637055747244 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031637058654996 to MsgsAck (7fe286055fd0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031637055747244
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610613
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613]}
-[DEBUG] | [get] | Assigned msg_id = 7397031637654998992 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031637656666968 to MsgsAck (7fe285ff03a0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031637654998992
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610617
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617]}
-[DEBUG] | [get] | Assigned msg_id = 7397031638222351284 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031638225003452 to MsgsAck (7fe285ff04c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031638222351284
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatzvz/18305407
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617]}
-[DEBUG] | [get] | Assigned msg_id = 7397031638701259824 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031638704119892 to MsgsAck (7fe285ff0eb0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031638701259824
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatik_piarn/150868489
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617]}
-[DEBUG] | [get] | Assigned msg_id = 7397031639083883496 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031639087612364 to MsgsAck (7fe285ff0820)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031639083883496
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatzvz/18305792
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617]}
-[DEBUG] | [get] | Assigned msg_id = 7397031639471311780 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031639474084112 to MsgsAck (7fe285ff0e80)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031639471311780
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/supercellchat/3429520
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617]}
-[DEBUG] | [get] | Assigned msg_id = 7397031639974110816 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031639977099628 to MsgsAck (7fe286055e50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031639974110816
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12607446
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446]}
-[DEBUG] | [get] | Assigned msg_id = 7397031640841891144 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031640844594812 to MsgsAck (7fe286055e20)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031640841891144
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatzvz/18307912
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446]}
-[DEBUG] | [get] | Assigned msg_id = 7397031641445118760 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031641447506760 to MsgsAck (7fe285ff0ee0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031641445118760
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12609537
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537]}
-[DEBUG] | [get] | Assigned msg_id = 7397031642053927276 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031642056191300 to MsgsAck (7fe286007400)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031642053927276
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12609834
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834]}
-[DEBUG] | [get] | Assigned msg_id = 7397031642954423760 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031642957070208 to MsgsAck (7fe285ff09d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031642954423760
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12609998
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998]}
-[DEBUG] | [get] | Assigned msg_id = 7397031643922403192 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031644006670808 to MsgsAck (7fe285fb8d60)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031643922403192
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610278
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278]}
-[DEBUG] | [get] | Assigned msg_id = 7397031645332941508 to DeleteMessagesRequest (7fe286052130)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031645336521604 to MsgsAck (7fe285ff0100)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031645332941508
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610420
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420]}
-[DEBUG] | [get] | Assigned msg_id = 7397031646297757604 to DeleteMessagesRequest (7fe285fb8b50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031646301261404 to MsgsAck (7fe286055c70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031646297757604
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610508
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508]}
-[DEBUG] | [get] | Assigned msg_id = 7397031647234305836 to DeleteMessagesRequest (7fe285ff03a0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031647235798336 to MsgsAck (7fe285ff0910)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031647234305836
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610484
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484]}
-[DEBUG] | [get] | Assigned msg_id = 7397031648040865400 to DeleteMessagesRequest (7fe285fb8ac0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031648042986372 to MsgsAck (7fe286007190)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031648040865400
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7561558
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484]}
-[DEBUG] | [get] | Assigned msg_id = 7397031649307564836 to DeleteMessagesRequest (7fe285fb8be0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031649309033492 to MsgsAck (7fe285ff0a00)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031649307564836
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610218
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218]}
-[DEBUG] | [get] | Assigned msg_id = 7397031649999997236 to DeleteMessagesRequest (7fe285fb8af0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031650002937416 to MsgsAck (7fe285ff0820)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031649999997236
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610369
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369]}
-[DEBUG] | [get] | Assigned msg_id = 7397031650490285020 to DeleteMessagesRequest (7fe285fb8b50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031650493042092 to MsgsAck (7fe285ff03a0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031650490285020
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7561911
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369]}
-[DEBUG] | [get] | Assigned msg_id = 7397031650892761328 to DeleteMessagesRequest (7fe2860074c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031650894489388 to MsgsAck (7fe286007340)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031650892761328
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/piarissimo/7561934
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369]}
-[DEBUG] | [get] | Assigned msg_id = 7397031651244681456 to DeleteMessagesRequest (7fe2860074c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031651246337036 to MsgsAck (7fe285ff0ac0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031651244681456
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610321
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321]}
-[DEBUG] | [get] | Assigned msg_id = 7397031651634389024 to DeleteMessagesRequest (7fe285fb8c70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031651636237244 to MsgsAck (7fe285ff0ee0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031651634389024
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610319
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319]}
-[DEBUG] | [get] | Assigned msg_id = 7397031652011069396 to DeleteMessagesRequest (7fe2860074c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031652012605764 to MsgsAck (7fe286007400)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031652011069396
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: __https://t.me/p2pdropi/12610316__
-[DEBUG] | [get] | Assigned msg_id = 7397031652419425108 to DeleteMessagesRequest (7fe2860074c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031652422844984 to MsgsAck (7fe285ff09d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031652419425108
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: ‼️ Пpедлaгаю pабoту любoму жeлaющeму, нужнo дocтавлять нaличные
-
-📈 Ecть кapьеpный poст, вoзможнo yвeличение вaшей cтaвки (пpи нaличии пpoдoлжитeльнoй и кaчecтвeннo выпoлнeннoй paбoты)
-
-💵 Дoxод в мeсяц в cpеднeм oт 5OO.ОOО pyблей
-
-🇷🇺 ЛЮБОЙ ГOPОД PФ (Кроме МСК , СПб)
-
-❇️ Зaдaча зaключaетcя в том, что вам нyжно зaбpaть нaличные деньги, чaсть ocтавляeтe ceбе, a ocтальнoe oтпpавляeте нaм. Bcё пpocто.
-
-🔑 Зaлог нe нyжен, тoлько докyменты подтвepждающиe личнoсть.
-
-Так же требуются дроповоды в этой сфере, с опытом работы!
-
-💼 Пoдpoбнee: @rabota_rf114
-[DEBUG] | [get] | Assigned msg_id = 7397031652856226068 to DeleteMessagesRequest (7fe285fb8b50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031652858738044 to MsgsAck (7fe285fb8d60)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031652856226068
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610305
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305]}
-[DEBUG] | [get] | Assigned msg_id = 7397031653590116244 to DeleteMessagesRequest (7fe286055ee0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031653593177540 to MsgsAck (7fe285ff0b80)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031653590116244
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610302
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305, 12610302]}
-[DEBUG] | [get] | Assigned msg_id = 7397031654006192904 to DeleteMessagesRequest (7fe285ff01c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031654008433084 to MsgsAck (7fe285ff0b20)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031654006192904
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610301
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305, 12610302, 12610301]}
-[DEBUG] | [get] | Assigned msg_id = 7397031654402748804 to DeleteMessagesRequest (7fe285fb8b50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031654404660920 to MsgsAck (7fe286055c70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031654402748804
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/p2pdropi/12610296
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305, 12610302, 12610301, 12610296]}
-[DEBUG] | [get] | Assigned msg_id = 7397031654785560352 to DeleteMessagesRequest (7fe285ff01c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031654787468652 to MsgsAck (7fe286055ee0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031654785560352
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatzvz/18285095
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912, 18285095], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305, 12610302, 12610301, 12610296]}
-[DEBUG] | [get] | Assigned msg_id = 7397031655206132632 to DeleteMessagesRequest (7fe285fb8b50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031655208780984 to MsgsAck (7fe286055f70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031655206132632
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatzvz/18307571
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912, 18285095, 18307571], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305, 12610302, 12610301, 12610296]}
-[DEBUG] | [get] | Assigned msg_id = 7397031655585428936 to DeleteMessagesRequest (7fe2860072e0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031655587712984 to MsgsAck (7fe285ff0280)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031655585428936
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/chatzvz/18308025
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912, 18285095, 18307571, 18308025], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305, 12610302, 12610301, 12610296]}
-[DEBUG] | [get] | Assigned msg_id = 7397031655956196528 to DeleteMessagesRequest (7fe2860072e0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031655958244068 to MsgsAck (7fe285ff02e0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031655956196528
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/supercellchat/3347504
-[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/supercellchat/': [3347504, 3429520, 3347504], 'https://t.me/BloxFruitsTradeChat/': [3701690, 3702156], 'https://t.me/readovchat/': [17246012], 'https://t.me/piarissimo/': [7562105, 7562247, 7562327, 7562354, 7562367, 7562426, 7562354, 7561558, 7561911, 7561934], 'https://t.me/chatzvz/': [18308157, 18305407, 18305792, 18307912, 18285095, 18307571, 18308025], 'https://t.me/chatik_piarn/': [150908052, 150908128, 150908139, 150868489], 'https://t.me/p2pdropi/': [12610602, 12610599, 12610598, 12610606, 12610613, 12610617, 12607446, 12609537, 12609834, 12609998, 12610278, 12610420, 12610508, 12610484, 12610218, 12610369, 12610321, 12610319, 12610305, 12610302, 12610301, 12610296]}
-[DEBUG] | [get] | Assigned msg_id = 7397031656503184060 to DeleteMessagesRequest (7fe2860072e0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031656506975872 to MsgsAck (7fe285ff0160)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031656503184060
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787350277537552
 [DEBUG] | [_recv_loop] | Receiving items from the network...
 [DEBUG] | [processing_spam_message] | Функция используется под сообщением: flag TRUE
-[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/supercellchat/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/supercellchat/ по сообщению: 3347504
-[DEBUG] | [get] | Assigned msg_id = 7397031656925740940 to GetMessagesRequest (7fe28600c0d0)
+[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1550236
+[DEBUG] | [get] | Assigned msg_id = 7400787351302559104 to GetMessagesRequest (7fc2aa194430)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031656928765040 to MsgsAck (7fe28600c4c0)
+[DEBUG] | [get] | Assigned msg_id = 7400787351305210320 to MsgsAck (7fc2af925280)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031656925740940
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787351302559104
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/supercellchat/ по сообщению: 3429520
-[DEBUG] | [get] | Assigned msg_id = 7397031657355101328 to GetMessagesRequest (7fe28600c460)
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1550024
+[DEBUG] | [get] | Assigned msg_id = 7400787351996065344 to GetMessagesRequest (7fc2af925580)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031657357152684 to MsgsAck (7fe28600c070)
+[DEBUG] | [get] | Assigned msg_id = 7400787351997645584 to MsgsAck (7fc2af925130)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031657355101328
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787351996065344
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/supercellchat/ по сообщению: 3347504
-[DEBUG] | [get] | Assigned msg_id = 7397031658025816304 to GetMessagesRequest (7fe28600c940)
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1550024 не удалось получить из чата https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1550024
+[DEBUG] | [get] | Assigned msg_id = 7400787352657242028 to GetMessagesRequest (7fc2aa194430)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031658028067932 to MsgsAck (7fe28600c190)
+[DEBUG] | [get] | Assigned msg_id = 7400787352658518044 to MsgsAck (7fc2af928c70)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031658025816304
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787352657242028
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/BloxFruitsTradeChat/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/BloxFruitsTradeChat/ по сообщению: 3701690
-[DEBUG] | [get] | Assigned msg_id = 7397031658384667740 to ResolveUsernameRequest (7fe28600c490)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 40 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031658386472088 to MsgsAck (7fe285faceb0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031658384667740
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031658707300528 to GetMessagesRequest (7fe28600c700)
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1550024 не удалось получить из чата https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1549927
+[DEBUG] | [get] | Assigned msg_id = 7400787353496121256 to GetMessagesRequest (7fc2aa194430)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031658708651884 to MsgsAck (7fe28600c640)
+[DEBUG] | [get] | Assigned msg_id = 7400787353498477784 to MsgsAck (7fc2af9289d0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031658707300528
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787353496121256
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/BloxFruitsTradeChat/ по сообщению: 3702156
-[DEBUG] | [get] | Assigned msg_id = 7397031659130223616 to GetMessagesRequest (7fe28600c9a0)
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1549771
+[DEBUG] | [get] | Assigned msg_id = 7400787354090926020 to GetMessagesRequest (7fc2af928880)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031659131895408 to MsgsAck (7fe28600c790)
+[DEBUG] | [get] | Assigned msg_id = 7400787354093413204 to MsgsAck (7fc2af928850)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031659130223616
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787354090926020
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/readovchat/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/readovchat/ по сообщению: 17246012
-[DEBUG] | [get] | Assigned msg_id = 7397031659568832740 to GetMessagesRequest (7fe28600cf70)
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1549467
+[DEBUG] | [get] | Assigned msg_id = 7400787354727033464 to GetMessagesRequest (7fc2af928a90)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031659570887908 to MsgsAck (7fe28600c5e0)
+[DEBUG] | [get] | Assigned msg_id = 7400787354729181140 to MsgsAck (7fc2af928760)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031659568832740
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787354727033464
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Сообщение: 17246012 не удалось получить из чата https://t.me/readovchat/
-[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/piarissimo/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7562105
-[DEBUG] | [get] | Assigned msg_id = 7397031659966780052 to ResolveUsernameRequest (7fe285facb20)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 32 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031659969188080 to MsgsAck (7fe28600c580)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031659966780052
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031660408571584 to GetMessagesRequest (7fe28600c280)
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1549467 не удалось получить из чата https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1549430
+[DEBUG] | [get] | Assigned msg_id = 7400787355303501932 to GetMessagesRequest (7fc2af7ddc70)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031660412107808 to MsgsAck (7fe28600c6d0)
+[DEBUG] | [get] | Assigned msg_id = 7400787355305846064 to MsgsAck (7fc2af928940)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031660408571584
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787355303501932
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7562247
-[DEBUG] | [get] | Assigned msg_id = 7397031660819411620 to GetMessagesRequest (7fe28600cd90)
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1549430 не удалось получить из чата https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1548226
+[DEBUG] | [get] | Assigned msg_id = 7400787355970669596 to GetMessagesRequest (7fc2af7ddc70)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031660821283684 to MsgsAck (7fe28600c490)
+[DEBUG] | [get] | Assigned msg_id = 7400787355972054332 to MsgsAck (7fc2af928b50)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031660819411620
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787355970669596
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7562327
-[DEBUG] | [get] | Assigned msg_id = 7397031661298667296 to GetMessagesRequest (7fe286010ac0)
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1548226 не удалось получить из чата https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1548198
+[DEBUG] | [get] | Assigned msg_id = 7400787356515230028 to GetMessagesRequest (7fc2af7ddc70)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031661301244124 to MsgsAck (7fe286010190)
+[DEBUG] | [get] | Assigned msg_id = 7400787356517777292 to MsgsAck (7fc2af928280)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031661298667296
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787356515230028
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7562354
-[DEBUG] | [get] | Assigned msg_id = 7397031661741363868 to GetMessagesRequest (7fe286010e80)
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1548198 не удалось получить из чата https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1546754
+[DEBUG] | [get] | Assigned msg_id = 7400787357000929680 to GetMessagesRequest (7fc2af7ddc70)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031662038167940 to MsgsAck (7fe2860101c0)
+[DEBUG] | [get] | Assigned msg_id = 7400787357003828852 to MsgsAck (7fc2af928d60)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031661741363868
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787357000929680
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7562367
-[DEBUG] | [get] | Assigned msg_id = 7397031662425323472 to GetMessagesRequest (7fe286010490)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031662427011476 to MsgsAck (7fe286010460)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031662425323472
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7562426
-[DEBUG] | [get] | Assigned msg_id = 7397031662850439056 to GetMessagesRequest (7fe28600cc40)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031662851802812 to MsgsAck (7fe28600cbb0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031662850439056
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7562354
-[DEBUG] | [get] | Assigned msg_id = 7397031663283666596 to GetMessagesRequest (7fe28600c070)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031663285095200 to MsgsAck (7fe28600c970)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031663283666596
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7561558
-[DEBUG] | [get] | Assigned msg_id = 7397031663689311012 to GetMessagesRequest (7fe286010d30)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031663691831576 to MsgsAck (7fe2860105b0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031663689311012
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7561911
-[DEBUG] | [get] | Assigned msg_id = 7397031664136507020 to GetMessagesRequest (7fe28600cf70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031664139335620 to MsgsAck (7fe28600ceb0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031664136507020
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/piarissimo/ по сообщению: 7561934
-[DEBUG] | [get] | Assigned msg_id = 7397031664482947336 to GetMessagesRequest (7fe28600c4c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031664484251964 to MsgsAck (7fe28600cc40)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031664482947336
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/chatzvz/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatzvz/ по сообщению: 18308157
-[DEBUG] | [get] | Assigned msg_id = 7397031665015695560 to GetMessagesRequest (7fe286010dc0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031665018719660 to MsgsAck (7fe2860104c0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031665015695560
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Сообщение: 18308157 не удалось получить из чата https://t.me/chatzvz/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatzvz/ по сообщению: 18305407
-[DEBUG] | [get] | Assigned msg_id = 7397031665629747376 to GetMessagesRequest (7fe286010dc0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031665631191240 to MsgsAck (7fe286010850)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031665629747376
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatzvz/ по сообщению: 18305792
-[DEBUG] | [get] | Assigned msg_id = 7397031666392766584 to GetMessagesRequest (7fe286010430)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031666394862760 to MsgsAck (7fe286010e50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031666392766584
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatzvz/ по сообщению: 18307912
-[DEBUG] | [get] | Assigned msg_id = 7397031666980078328 to GetMessagesRequest (7fe28600c3d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031666982443440 to MsgsAck (7fe28600cc70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031666980078328
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatzvz/ по сообщению: 18285095
-[DEBUG] | [get] | Assigned msg_id = 7397031667566742528 to GetMessagesRequest (7fe28600c580)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031667568767180 to MsgsAck (7fe28600c190)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031667566742528
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatzvz/ по сообщению: 18307571
-[DEBUG] | [get] | Assigned msg_id = 7397031668036962140 to GetMessagesRequest (7fe286010610)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031668039226164 to MsgsAck (7fe286010310)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031668036962140
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatzvz/ по сообщению: 18308025
-[DEBUG] | [get] | Assigned msg_id = 7397031668567294704 to GetMessagesRequest (7fe28600cd30)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031668569697964 to MsgsAck (7fe28600cbe0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031668567294704
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Сообщение: 18308025 не удалось получить из чата https://t.me/chatzvz/
-[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/chatik_piarn/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatik_piarn/ по сообщению: 150908052
-[DEBUG] | [get] | Assigned msg_id = 7397031669045975316 to GetMessagesRequest (7fe28600c9d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031669047326672 to MsgsAck (7fe285facbb0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031669045975316
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatik_piarn/ по сообщению: 150908128
-[DEBUG] | [get] | Assigned msg_id = 7397031669749554264 to GetMessagesRequest (7fe28600c580)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031669752466788 to MsgsAck (7fe28600cfa0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031669749554264
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatik_piarn/ по сообщению: 150908139
-[DEBUG] | [get] | Assigned msg_id = 7397031670235538112 to GetMessagesRequest (7fe286010370)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031670238050092 to MsgsAck (7fe286010cd0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031670235538112
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/chatik_piarn/ по сообщению: 150868489
-[DEBUG] | [get] | Assigned msg_id = 7397031670983597984 to GetMessagesRequest (7fe28600c280)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031670985818140 to MsgsAck (7fe28600c400)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031670983597984
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/p2pdropi/
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610602
-[DEBUG] | [get] | Assigned msg_id = 7397031671429793588 to ResolveUsernameRequest (7fe28600c850)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 32 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031671432146300 to MsgsAck (7fe28600c9d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031671429793588
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7397031671788458100 to GetMessagesRequest (7fe28600c5b0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031671791905632 to MsgsAck (7fe28600c8b0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031671788458100
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610599
-[DEBUG] | [get] | Assigned msg_id = 7397031672172978632 to GetMessagesRequest (7fe28600c610)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031672175153960 to MsgsAck (7fe286010ee0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031672172978632
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610598
-[DEBUG] | [get] | Assigned msg_id = 7397031672618073692 to GetMessagesRequest (7fe28600cee0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031672620386352 to MsgsAck (7fe28600cfd0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031672618073692
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610606
-[DEBUG] | [get] | Assigned msg_id = 7397031673063669432 to GetMessagesRequest (7fe286012ac0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031673065789452 to MsgsAck (7fe286014e20)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031673063669432
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610613
-[DEBUG] | [get] | Assigned msg_id = 7397031673466553916 to GetMessagesRequest (7fe286014fd0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031673468633880 to MsgsAck (7fe286014d00)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031673466553916
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610617
-[DEBUG] | [get] | Assigned msg_id = 7397031674036214104 to GetMessagesRequest (7fe286014fd0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031674038041344 to MsgsAck (7fe286014f70)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031674036214104
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12607446
-[DEBUG] | [get] | Assigned msg_id = 7397031674949280612 to GetMessagesRequest (7fe286014ca0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031674951393000 to MsgsAck (7fe2860103a0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031674949280612
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12609537
-[DEBUG] | [get] | Assigned msg_id = 7397031675518580312 to GetMessagesRequest (7fe286012460)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031675520925396 to MsgsAck (7fe2860122e0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031675518580312
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12609834
-[DEBUG] | [get] | Assigned msg_id = 7397031676025313252 to GetMessagesRequest (7fe286012310)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031676026901120 to MsgsAck (7fe286012b20)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031676025313252
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12609998
-[DEBUG] | [get] | Assigned msg_id = 7397031676525092952 to GetMessagesRequest (7fe2860125b0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031676527105204 to MsgsAck (7fe286012ca0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031676525092952
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610278
-[DEBUG] | [get] | Assigned msg_id = 7397031676931521288 to GetMessagesRequest (7fe286012e50)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031676934532992 to MsgsAck (7fe286012e20)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031676931521288
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610420
-[DEBUG] | [get] | Assigned msg_id = 7397031677288946024 to GetMessagesRequest (7fe286012c10)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031677291501872 to MsgsAck (7fe286012100)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031677288946024
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610508
-[DEBUG] | [get] | Assigned msg_id = 7397031677730613584 to GetMessagesRequest (7fe286012670)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031677732845180 to MsgsAck (7fe286012340)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031677730613584
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610484
-[DEBUG] | [get] | Assigned msg_id = 7397031678135745876 to GetMessagesRequest (7fe286012d90)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031678137521616 to MsgsAck (7fe2860125e0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031678135745876
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610218
-[DEBUG] | [get] | Assigned msg_id = 7397031678651457660 to GetMessagesRequest (7fe28600c970)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031678653253428 to MsgsAck (7fe28600cbe0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031678651457660
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610369
-[DEBUG] | [get] | Assigned msg_id = 7397031679441105360 to GetMessagesRequest (7fe2860109d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031679443564888 to MsgsAck (7fe286010610)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031679441105360
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610321
-[DEBUG] | [get] | Assigned msg_id = 7397031679813940520 to GetMessagesRequest (7fe286010ca0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031679815952772 to MsgsAck (7fe286010490)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031679813940520
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610319
-[DEBUG] | [get] | Assigned msg_id = 7397031680254940504 to GetMessagesRequest (7fe28600c640)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031680256637092 to MsgsAck (7fe28600c0d0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031680254940504
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610305
-[DEBUG] | [get] | Assigned msg_id = 7397031680688944336 to GetMessagesRequest (7fe286010b80)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031680690804952 to MsgsAck (7fe286010a00)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031680688944336
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610302
-[DEBUG] | [get] | Assigned msg_id = 7397031681120392316 to GetMessagesRequest (7fe28600ce20)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031681122028824 to MsgsAck (7fe28600c610)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031681120392316
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610301
-[DEBUG] | [get] | Assigned msg_id = 7397031681593311780 to GetMessagesRequest (7fe286012370)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031681595476624 to MsgsAck (7fe286012bb0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031681593311780
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/p2pdropi/ по сообщению: 12610296
-[DEBUG] | [get] | Assigned msg_id = 7397031682080504888 to GetMessagesRequest (7fe2860109a0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031682082389352 to MsgsAck (7fe286010af0)
-[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
-[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
-[DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031682080504888
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[INFO] | [__init__] | 48
-[DEBUG] | [get] | Assigned msg_id = 7397031682613836760 to GetHistoryRequest (7fe286010eb0)
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1546754 не удалось получить из чата https://t.me/korbenteam/
+[INFO] | [__init__] | 3
+[DEBUG] | [get] | Assigned msg_id = 7400787357753916236 to GetHistoryRequest (7fc2af9289a0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 72 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7397031682616520400 to MsgsAck (7fe286012eb0)
+[DEBUG] | [get] | Assigned msg_id = 7400787357755853148 to MsgsAck (7fc2af928a00)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7397031682613836760
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7400787357753916236
 [DEBUG] | [_recv_loop] | Receiving items from the network...
 [DEBUG] | [handler_spam] | Ожидаю новых сообщений
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShortMessage
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_gzip_packed] | Handling gzipped data
-[DEBUG] | [_handle_update] | Handling update Updates
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_gzip_packed] | Handling gzipped data
-[DEBUG] | [_handle_update] | Handling update Updates
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_update] | Handling update UpdateShort
-[DEBUG] | [_recv_loop] | Receiving items from the network...

@@ -24,14 +24,15 @@ def handler_spam_messages(func):
 
 
 class HandlerMessages:
-    def __init__(self, data_of_tg, file):
+    def __init__(self, data_of_tg, file, file_csv):
         self.saver_messages = SaverMessages(file, **data_of_tg)
         self.path_to_file = file
+        self.file_csv = file_csv
         logging.info('Постановка хендлера')
 
     @handler_spam_messages
     async def handle(self):
         logging.debug('Поймал новые сообщения')
         await self.saver_messages.run_case()
-        converter = CSVConverterFromTxt('../../data/spam_messages.txt')
+        converter = CSVConverterFromTxt('../../data/spam_messages.txt', self.file_csv)
         converter.convert_to_csv()
