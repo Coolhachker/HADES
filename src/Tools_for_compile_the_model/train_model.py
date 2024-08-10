@@ -1,15 +1,17 @@
 from keras.callbacks import ModelCheckpoint, EarlyStopping
-from src.Tools_to_set_the_dataset.set_dataset import SpamDataset
+from src.Tools_to_set_the_dataset.set_dataset import HadesDataset
 from src.Tools_for_compile_the_model.set_model import Hades
 from keras.losses import BinaryCrossentropy
 from keras.metrics import BinaryAccuracy
+from src.Tools_to_set_the_dataset.set_dataset_from_csv import set_dataframe_from_csv
 import os
 
 
 class Education:
     def __init__(self):
-        self.dataset_object = SpamDataset('../../data/spam_messages.txt', '')
+        self.dataset_object = HadesDataset(set_dataframe_from_csv('../../data/spam_messages.csv', '../../data/ham_messages.csv'))
         self.dataset = self.dataset_object.HadesDataset
+        self.dataset_for_valid = self.dataset_object.HadesDatasetValid
         vocab_size = len(self.dataset_object.vectorization_layer.vectorization_layer.get_vocabulary())
         embedding_dim = 16
 
@@ -56,7 +58,8 @@ class Education:
         self.model.fit(
             self.dataset,
             epochs=self.epoch,
-            callbacks=[self.checkpoint_callback, self.early_stopping_callback]
+            callbacks=[self.checkpoint_callback, self.early_stopping_callback],
+            validation_data=self.dataset_for_valid
         )
 
 

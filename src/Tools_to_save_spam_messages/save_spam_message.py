@@ -70,14 +70,19 @@ class SaverMessages:
         await self.client.delete_messages(self.chat, message_id)
 
     async def get_messages_from_another_chats(self, config_file_json):
-        configs = json.load(config_file_json)
+        with open(config_file_json, 'r') as file:
+            configs = json.load(file)
         channels = configs['channels']
+        logger.info(f'Каналы: {channels}')
         for channel in channels:
+            logger.info(f'Итерируемый канал: {channel}')
             count: int = 0
-            for message in self.client.iter_messages(channel):
+            async for message in self.client.iter_messages(channel):
+                logger.debug(f'Сообщение: {message} из канала {channel}')
                 try:
                     if count != 75:
                         self.write_spam_message_in_file(message.text.replace('\n', ' ').replace(';', ''))
+                        logger.debug(f'Сообщение сохранилось: {message}')
                         count += 1
                     else:
                         break

@@ -3,6 +3,7 @@ from src.Tools_to_set_the_dataset.vectorization_data import VectorizationData
 import logging
 from src.set_logger import ColoredFormat
 from tensorflow.python.data.experimental import AUTOTUNE
+from tensorflow import constant
 file_handler = logging.FileHandler('../../logs/set_dataset.log', mode='w')
 file_handler.setFormatter(ColoredFormat())
 
@@ -12,47 +13,37 @@ logger = logging.getLogger()
 
 
 class HadesDataset:
-    def __init__(self, path_to_file_with_spam_messages, path_to_file_with_simple_messages):
-        self.vectorization_layer = VectorizationData(path_to_file_with_spam_messages)
-        self.path_to_file_with_simple_messages = path_to_file_with_simple_messages
-        self.path_to_file_with_spam_messages = path_to_file_with_spam_messages
+    def __init__(self, numpy_dataframe_with_spam_and_ham_messages):
+        self.numpy_dataframe_with_spam_and_ham_messages_for_train = [str(obj[0]) for obj in numpy_dataframe_with_spam_and_ham_messages[:1100]]
+        self.numpy_dataframe_with_spam_and_ham_messages_for_validation = [str(obj[0]) for obj in numpy_dataframe_with_spam_and_ham_messages[-300:]]
+
+        self.numpy_dataframe_with_spam_and_ham_messages_for_train_labels = [float(obj[1]) for obj in numpy_dataframe_with_spam_and_ham_messages[:1100]]
+        self.numpy_dataframe_with_spam_and_ham_messages_for_validation_labels = [float(obj[1]) for obj in numpy_dataframe_with_spam_and_ham_messages[-300:]]
+
+        self.vectorization_layer = VectorizationData(numpy_dataframe_with_spam_and_ham_messages)
         self.bath_size = 30
 
-        spam_dataset = SpamDataset(self.path_to_file_with_spam_messages, self.path_to_file_with_simple_messages)
-        self.Dataset_from_spam_messages = self.set_dataset(self.path_to_file_with_spam_messages)
-        spam_dataset.set_label_to_spam(self.Dataset_from_spam_messages)
-        spam_dataset.setting_spam_dataset()
+        self.HadesDataset = self.set_train_dataset()
+        self.HadesDatasetValid = self.set_valid_dataset()
 
-        simple_dataset = SimpleDataset(self.path_to_file_with_spam_messages, self.path_to_file_with_simple_messages)
-        self.Dataset_from_simple_messages = self.set_dataset(self.path_to_file_with_simple_messages)
-        simple_dataset.set_label_to_simple(self.Dataset_from_simple_messages)
-        simple_dataset.setting_simple_dataset()
+        self.vectorize_dataset(self.HadesDataset)
+        self.vectorize_dataset(self.HadesDatasetValid)
+        breakpoint()
+        self.settings_dataset(self.HadesDataset)
+        self.settings_dataset(self.HadesDatasetValid)
 
-        self.HadesDataset = self.concatenate_dataset()
+    def set_train_dataset(self):
+        logger.info('Постановка датасета')
+        return Dataset.from_tensor_slices((self.numpy_dataframe_with_spam_and_ham_messages_for_train, self.numpy_dataframe_with_spam_and_ham_messages_for_train_labels))
 
-    def set_dataset(self, path_to_file_with_spam_messages):
-        list_with_tensors: list = []
-        with open(path_to_file_with_spam_messages, 'r') as file:
-            for string in file:
-                list_with_tensors.append(self.vectorization_layer.chars_to_ids(string))
-                logging.debug(f'Размерность тензора: {self.vectorization_layer.chars_to_ids(string).shape} ')
-        return Dataset.from_tensor_slices(list_with_tensors)
+    def set_valid_dataset(self):
+        logger.info('Постановка датасета для валидации данных')
+        return Dataset.from_tensor_slices((self.numpy_dataframe_with_spam_and_ham_messages_for_validation, self.numpy_dataframe_with_spam_and_ham_messages_for_validation_labels))
 
-    def concatenate_dataset(self):
-        return Dataset.concatenate(self.Dataset_from_simple_messages, self.Dataset_from_spam_messages)
+    @staticmethod
+    def settings_dataset(dataset):
+        logger.info('Настройка датасета')
+        dataset.cache().prefetch(AUTOTUNE)
 
-
-class SpamDataset(HadesDataset):
-    def set_label_to_spam(self, dataset):
-        dataset.map(self.vectorization_layer.set_label_to_sequences_spam)
-
-    def setting_spam_dataset(self):
-        self.Dataset_from_spam_messages.cache().prefetch(AUTOTUNE)
-
-
-class SimpleDataset(HadesDataset):
-    def set_label_to_simple(self, dataset):
-        dataset.map(self.vectorization_layer.set_label_to_sequences_simple)
-
-    def setting_simple_dataset(self):
-        self.Dataset_from_simple_messages.cache().prefetch(AUTOTUNE)
+    def vectorize_dataset(self, dataset):
+        dataset.map(self.vectorization_layer.chars_to_ids)

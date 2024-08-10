@@ -8,15 +8,17 @@ logger = getLogger()
 
 
 class VectorizationData:
-    def __init__(self, path_to_file):
-        self.path_to_file = path_to_file
+    def __init__(self, dataframe_from_numpy):
+        self.dataframe_from_numpy = dataframe_from_numpy
+        self.numpy_messages_without_markers = [str(obj[0]) for obj in self.dataframe_from_numpy]
+
         self.sequences_length = 350
         self.vectorization_layer = self.set_vectorization_layer()
         self.adapt_layer()
 
-    def chars_to_ids(self, text):
+    def chars_to_ids(self, text, label):
         text = expand_dims(text, -1)
-        return self.vectorization_layer(text)
+        return self.vectorization_layer(text), label
 
     @classmethod
     def set_label_to_sequences_spam(cls, tensor):
@@ -40,8 +42,7 @@ class VectorizationData:
         )
 
     def adapt_layer(self):
-        with open(self.path_to_file) as file:
-            self.vectorization_layer.adapt(file.readlines())
+        self.vectorization_layer.adapt(self.numpy_messages_without_markers)
         logger.info(f'Токены в слое TextVectorization: {self.vectorization_layer.get_vocabulary()}')
 
     def __call__(self, *args, **kwargs):
