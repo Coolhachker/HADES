@@ -5,7 +5,6 @@ from keras.losses import BinaryCrossentropy
 from keras.metrics import BinaryAccuracy
 from src.Tools_to_set_the_dataset.set_dataset_from_csv import set_dataframe_from_csv
 from keras.models import Sequential
-from keras.layers import Activation
 import os
 
 
@@ -25,7 +24,7 @@ class Education:
         self.epoch = 30
 
         self.fit_model()
-        self.hades = self.export_model()
+        # self.hades = self.export_model()
 
     def compile_model(self):
         self.model.compile(
@@ -81,14 +80,4 @@ class Education:
             optimizer='adam',
             metrics=['accuracy']
         )
-
         return hades
-
-    def __call__(self, text, *args, **kwargs):
-        return self.hades.predict(text)
-
-
-if __name__ == '__main__':
-    model = Education()
-    result = model(['Не сторож, а дегустатор. По виду'])
-    print(result)

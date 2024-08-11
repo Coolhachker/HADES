@@ -1,6 +1,5 @@
 import numpy
 from pandas import read_csv, concat, merge
-from tensorflow import constant
 import re
 
 

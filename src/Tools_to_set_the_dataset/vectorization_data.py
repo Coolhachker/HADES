@@ -31,7 +31,7 @@ class VectorizationData:
     @classmethod
     def standardize(cls, text):
         lower_case = lower(text)
-        return regex_replace(lower_case, "[%s]" % re.escape(string.punctuation), '')
+        return regex_replace(lower_case, "[%s]" % re.escape(string.punctuation), ' ')
 
     def set_vectorization_layer(self):
         return TextVectorization(

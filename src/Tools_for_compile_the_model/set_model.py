@@ -6,20 +6,19 @@ from tensorflow import GradientTape
 class Hades(Model):
     def __init__(self, embedding_dim, max_features):
         super().__init__(self)
-
         self.embedding = Embedding(max_features+1, embedding_dim)
-        # self.dropout = Dropout(0.1)
+        self.dropout = Dropout(0.1)
         self.pooling = GlobalAveragePooling1D()
-        # self.dropout = Dropout(0.1)
+        self.dropout = Dropout(0.1)
         self.dense = Dense(1, activation='sigmoid')
 
-    def call(self, inputs, training=None, mask=None):
+    def call(self, inputs, training=False, mask=None):
         x = inputs
-        x = self.embedding(x)
+        x = self.embedding(x, training=training)
         # x = self.dropout(x, training=training)
-        x = self.pooling(x)
+        x = self.pooling(x, training=training)
         # x = self.dropout(x, training=training)
-        x = self.dense(x)
+        x = self.dense(x, training=training)
         return x
 
     def train_step(self, data):
