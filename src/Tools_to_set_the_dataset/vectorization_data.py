@@ -16,9 +16,9 @@ class VectorizationData:
         self.vectorization_layer = self.set_vectorization_layer()
         self.adapt_layer()
 
-    def chars_to_ids(self, text, label):
+    def chars_to_ids(self, text):
         text = expand_dims(text, -1)
-        return self.vectorization_layer(text), label
+        return self.vectorization_layer(text)
 
     @classmethod
     def set_label_to_sequences_spam(cls, tensor):

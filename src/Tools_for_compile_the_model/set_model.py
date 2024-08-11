@@ -8,17 +8,17 @@ class Hades(Model):
         super().__init__(self)
 
         self.embedding = Embedding(max_features+1, embedding_dim)
-        self.dropout = Dropout(0.1)
+        # self.dropout = Dropout(0.1)
         self.pooling = GlobalAveragePooling1D()
-        self.dropout = Dropout(0.1)
+        # self.dropout = Dropout(0.1)
         self.dense = Dense(1, activation='sigmoid')
 
     def call(self, inputs, training=None, mask=None):
         x = inputs
         x = self.embedding(x)
-        x = self.dropout(x, training=training)
+        # x = self.dropout(x, training=training)
         x = self.pooling(x)
-        x = self.dropout(x, training=training)
+        # x = self.dropout(x, training=training)
         x = self.dense(x)
         return x
 
@@ -30,7 +30,6 @@ class Hades(Model):
         :return:
         """
         inputs, target = data
-
         with GradientTape() as tape:
             predictions = self(inputs, training=True)
             loss = self.loss(target, predictions)
