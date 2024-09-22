@@ -6,67 +6,241 @@
 [DEBUG] | [_connect] | Starting receive loop
 [INFO] | [_connect] | Connection to 149.154.167.51:443/TcpFull complete!
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7401552193284210896 to InvokeWithLayerRequest (7f80f6fe8b80)
+[DEBUG] | [get] | Assigned msg_id = 7404054595857895244 to InvokeWithLayerRequest (7f8673dbebe0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 80 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_bad_server_salt] | Handling bad salt for message 7401552193284210896
+[DEBUG] | [_handle_bad_server_salt] | Handling bad salt for message 7404054595857895244
 [DEBUG] | [_handle_bad_server_salt] | 1 message(s) will be resent
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7401552193627898908 to InvokeWithLayerRequest (7f80f6fe8b80)
+[DEBUG] | [get] | Assigned msg_id = 7404054596165702212 to InvokeWithLayerRequest (7f8673dbebe0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 80 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7401552193630001760 to MsgsAck (7f80f6fe8cd0)
+[DEBUG] | [get] | Assigned msg_id = 7404054596167135584 to MsgsAck (7f8673dbed30)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
 [DEBUG] | [_handle_container] | Handling container
 [DEBUG] | [_handle_new_session_created] | Handling new session created
-[DEBUG] | [_handle_ack] | Handling acknowledge for [7401552193627898908]
+[DEBUG] | [_handle_ack] | Handling acknowledge for [7404054596165702212]
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7401552193627898908
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054596165702212
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7401552194303386428 to GetUsersRequest (7f80f6fe8fd0)
+[DEBUG] | [get] | Assigned msg_id = 7404054596648582804 to GetUsersRequest (7f8673dbebe0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 32 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7401552194305371024 to MsgsAck (7f80f6fe8c40)
+[DEBUG] | [get] | Assigned msg_id = 7404054596650239336 to MsgsAck (7f8673dbeca0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 60 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7401552194303386428
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054596648582804
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7401552194948286748 to GetStateRequest (7f80f6fe8fd0)
+[DEBUG] | [get] | Assigned msg_id = 7404054597158459056 to GetStateRequest (7f8673dbebe0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 20 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7401552194951514936 to MsgsAck (7f80f6fe8b20)
+[DEBUG] | [get] | Assigned msg_id = 7404054597160374988 to MsgsAck (7f86726180d0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7401552194948286748
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054597158459056
 [DEBUG] | [_recv_loop] | Receiving items from the network...
-[DEBUG] | [get] | Assigned msg_id = 7401552195451382376 to GetUsersRequest (7f80f6fe8bb0)
+[DEBUG] | [get] | Assigned msg_id = 7404054597463627208 to GetUsersRequest (7f8673dbec10)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 32 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7401552195453775144 to MsgsAck (7f80f700ca30)
+[DEBUG] | [get] | Assigned msg_id = 7404054597465114940 to MsgsAck (7f8673f0da90)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7401552195451382376
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054597463627208
 [DEBUG] | [_recv_loop] | Receiving items from the network...
 [INFO] | [__init__] | Постановка хендлера
-[DEBUG] | [get] | Assigned msg_id = 7401552195953245856 to GetHistoryRequest (7f80f700cd90)
+[DEBUG] | [get] | Assigned msg_id = 7404054597773659096 to GetHistoryRequest (7f8673f0ddf0)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 72 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [get] | Assigned msg_id = 7401552195954938628 to MsgsAck (7f80f6fe8bb0)
+[DEBUG] | [get] | Assigned msg_id = 7404054597775099144 to MsgsAck (7f8673dbec10)
 [DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
 [DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
 [DEBUG] | [_send_loop] | Waiting for messages to send...
-[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7401552195953245856
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054597773659096
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [handle] | Поймал новые сообщения
+[DEBUG] | [get] | Assigned msg_id = 7404054598206423152 to GetHistoryRequest (7f8673f22160)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 72 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054598209015236 to MsgsAck (7f8673f0dbe0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054598206423152
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1557133
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1557133]}
+[DEBUG] | [get] | Assigned msg_id = 7404054599541946400 to DeleteMessagesRequest (7f8673f7c490)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054599543434132 to MsgsAck (7f8673f221c0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054599541946400
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1557129
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1557133, 1557129]}
+[DEBUG] | [get] | Assigned msg_id = 7404054599937122336 to DeleteMessagesRequest (7f8673dbeb80)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054599938517560 to MsgsAck (7f8673f22310)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054599937122336
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1557118
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1557133, 1557129, 1557118]}
+[DEBUG] | [get] | Assigned msg_id = 7404054600425217616 to DeleteMessagesRequest (7f8673dbeb80)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054600427930820 to MsgsAck (7f8673f76dc0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054600425217616
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1557116
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1557133, 1557129, 1557118, 1557116]}
+[DEBUG] | [get] | Assigned msg_id = 7404054600845286360 to DeleteMessagesRequest (7f8673f0dac0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054600847142208 to MsgsAck (7f8673f7c460)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054600845286360
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1556909
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1557133, 1557129, 1557118, 1557116, 1556909]}
+[DEBUG] | [get] | Assigned msg_id = 7404054601189461696 to DeleteMessagesRequest (7f8673dbeb80)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054601191554060 to MsgsAck (7f8673f7c8e0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054601189461696
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: https://t.me/korbenteam/1556547
+[INFO] | [save_spam_ids] | Промежуточный словарь ids: {'https://t.me/korbenteam/': [1557133, 1557129, 1557118, 1557116, 1556909, 1556547]}
+[DEBUG] | [get] | Assigned msg_id = 7404054601620626440 to DeleteMessagesRequest (7f8673dbeb80)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 52 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054601623517980 to MsgsAck (7f8673f0d100)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054601620626440
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [processing_spam_message] | Функция используется под сообщением: flag TRUE
+[INFO] | [iteration_messages_from_chat] | Идет итерация по сообщениям из чата: https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1557133
+[DEBUG] | [get] | Assigned msg_id = 7404054602192234028 to GetMessagesRequest (7f8673f27130)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054602195398320 to MsgsAck (7f8673f273a0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054602192234028
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1557129
+[DEBUG] | [get] | Assigned msg_id = 7404054602711773860 to GetMessagesRequest (7f8673f271c0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054602713106144 to MsgsAck (7f8673f27250)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054602711773860
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1557118
+[DEBUG] | [get] | Assigned msg_id = 7404054603191918364 to GetMessagesRequest (7f8673f27ac0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054603195238104 to MsgsAck (7f8673f27b80)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054603191918364
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1557116
+[DEBUG] | [get] | Assigned msg_id = 7404054603883585564 to GetMessagesRequest (7f8673da76d0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054603885005584 to MsgsAck (7f8673f27d60)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054603883585564
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1556909
+[DEBUG] | [get] | Assigned msg_id = 7404054604353062264 to GetMessagesRequest (7f8673f27a30)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054604354449860 to MsgsAck (7f8673f27d00)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054604353062264
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[ERROR] | [iteration_messages_from_chat] | поймал ошибку: 
+Traceback (most recent call last):
+  File "/Users/egor/PycharmProjects/AntiSpamBot/src/Tools_to_save_spam_messages/save_spam_message.py", line 58, in iteration_messages_from_chat
+    self.write_spam_message_in_file(user_message.message.replace('\n', ' ').replace(';', ''))
+AttributeError: 'NoneType' object has no attribute 'message'
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1556909 не удалось получить из чата https://t.me/korbenteam/
+[DEBUG] | [iteration_messages_from_chat] | Идет итерация чата: https://t.me/korbenteam/ по сообщению: 1556547
+[DEBUG] | [get] | Assigned msg_id = 7404054604854606264 to GetMessagesRequest (7f8673db2be0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 56 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054604857004752 to MsgsAck (7f8673f27640)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054604854606264
+[DEBUG] | [_recv_loop] | Receiving items from the network...
+[ERROR] | [iteration_messages_from_chat] | поймал ошибку: 
+Traceback (most recent call last):
+  File "/Users/egor/PycharmProjects/AntiSpamBot/src/Tools_to_save_spam_messages/save_spam_message.py", line 58, in iteration_messages_from_chat
+    self.write_spam_message_in_file(user_message.message.replace('\n', ' ').replace(';', ''))
+AttributeError: 'NoneType' object has no attribute 'message'
+[DEBUG] | [iteration_messages_from_chat] | Сообщение: 1556547 не удалось получить из чата https://t.me/korbenteam/
+[INFO] | [__init__] | 4
+[DEBUG] | [get] | Assigned msg_id = 7404054605426669708 to GetHistoryRequest (7f8673f277f0)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 72 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [get] | Assigned msg_id = 7404054605428405396 to MsgsAck (7f8673f27520)
+[DEBUG] | [_send_loop] | Encrypting 1 message(s) in 36 bytes for sending
+[DEBUG] | [_send_loop] | Encrypted messages put in a queue to be sent
+[DEBUG] | [_send_loop] | Waiting for messages to send...
+[DEBUG] | [_handle_rpc_result] | Handling RPC result for message 7404054605426669708
 [DEBUG] | [_recv_loop] | Receiving items from the network...
 [DEBUG] | [handler_spam] | Ожидаю новых сообщений
