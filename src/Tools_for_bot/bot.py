@@ -13,8 +13,8 @@ class AntiSpamBot:
         self.run_sync_functions()
 
     def run_sync_functions(self):
-        text_handlers.text_handlers(self.bot, self.dispatcher)
         system_handlers.system_handlers(self.bot, self.dispatcher)
+        text_handlers.text_handlers(self.bot, self.dispatcher)
 
     async def run_bot(self):
         self.dispatcher.message.middleware(MiddlewareOnMessages(self.bot))
