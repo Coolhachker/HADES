@@ -3,6 +3,7 @@ from src.Tools_for_bot.handlers import (
     text_handlers, system_handlers
 )
 from src.Tools_for_bot.middlewares.middleware_on_new_messages import MiddlewareOnMessages
+from src.Tools_for_rabbitmq.ping_pong_system import ping_the_parser
 import asyncio
 
 
@@ -17,6 +18,7 @@ class AntiSpamBot:
         text_handlers.text_handlers(self.bot, self.dispatcher)
 
     async def run_bot(self):
+        asyncio.create_task(ping_the_parser(self.bot))
         self.dispatcher.message.middleware(MiddlewareOnMessages(self.bot))
         await self.dispatcher.start_polling(self.bot)
 
