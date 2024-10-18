@@ -1,7 +1,7 @@
 from typing import List
 from tensorflow import saved_model
 from numpy import argmax
-hades = saved_model.load('/Users/egor/PycharmProjects/AntiSpamBot/src/Tools_for_compile_the_model/HADES')
+hades = saved_model.load('src/Tools_for_compile_the_model/HADES')
 
 
 def classify(text: List[str]) -> bool:

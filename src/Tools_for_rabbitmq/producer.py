@@ -26,6 +26,7 @@ class Producer:
     def declare_queue(self):
         self.channel.queue_declare(queue=self.queue, durable=True)
         self.channel.queue_declare(queue=self.callback_queue, durable=True)
+        self.channel.queue_declare(queue=Queue.ping_queue, durable=True)
 
     def publish(self, message: Any, properties=pika.BasicProperties(delivery_mode=pika.DeliveryMode.Persistent), queue=None, callback_queue=None):
         properties = pika.BasicProperties(delivery_mode=pika.DeliveryMode.Persistent, reply_to=self.callback_queue)
