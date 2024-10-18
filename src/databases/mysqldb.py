@@ -19,7 +19,7 @@ class MysqlDB:
                 user='root',
                 password='root1234567890',
                 auth_plugin='mysql_native_password',
-                database='ANTI-SPAM-DB'
+                database='ANTI_SPAM_DB'
             )
             logger.info('Успешное подключение')
             return connection, connection.cursor(buffered=True)
@@ -31,18 +31,18 @@ class MysqlDB:
                 auth_plugin='mysql_native_password',
             )
             cursor = connection.cursor()
-            cursor.execute('CREATE DATABASE ANTI-SPAM-DB')
+            cursor.execute('CREATE DATABASE ANTI_SPAM_DB')
             connection.commit()
             self.connect_to_db()
 
     def create_table(self):
-        # self.cursor.execute('DROP TABLE trusted_users')
-        self.cursor.execute('CREATE TABLE IF NOT EXISTS admins(user_nickname TEXT, chat_id_of_admin INT UNSIGNED, chat_id INT UNSIGNED)')
+        # self.cursor.execute('DROP TABLE admins')
+        self.cursor.execute('CREATE TABLE IF NOT EXISTS admins(user_nickname TEXT, chat_id_of_admin INT UNSIGNED, chat_id BIGINT)')
         self.connection.commit()
 
     @lru_cache(maxsize=128)
     def add_entry_in_admins(self, chat_id_of_user: int, chat_id: int, username: str):
-        self.cursor.executemany("""INSERT INTO admins(username, chat_id_of_admin, chat_id) VALUES(%s, %s, %s)""", [(username, chat_id_of_user, chat_id)])
+        self.cursor.executemany("""INSERT INTO admins(user_nickname, chat_id_of_admin, chat_id) VALUES(%s, %s, %s)""", [(username, chat_id_of_user, chat_id)])
         self.connection.commit()
 
     def get_chat_id_of_admin(self, chat_id: int) -> typing.List[str]:
