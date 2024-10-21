@@ -1,14 +1,16 @@
 from typing import List
 from tensorflow import saved_model
-hades = saved_model.load('HADES')
+from numpy import argmax
+hades = saved_model.load('src/Tools_for_compile_the_model/HADES')
 
 
-def classify(text: List[str]):
-    """
-    Функция классификации сообщений
-    :param text:
-    :return: 0 - не спам, 1 - спам
-    """
+def classify(text: List[str]) -> bool:
     result = hades.classify(text).numpy()[0][0] * 10
-    print(result)
-    return 0 if result <= 0.11 else 1
+    if result >= 0.1:
+        return True
+    else:
+        return False
+
+
+if __name__ == '__main__':
+    print(classify(['у меня были все провайдеры']))
