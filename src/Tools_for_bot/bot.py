@@ -5,6 +5,8 @@ from src.Tools_for_bot.handlers import (
 from src.Tools_for_bot.middlewares.middleware_on_new_messages import MiddlewareOnMessages
 from src.Tools_for_rabbitmq.ping_pong_system import ping_the_parser
 import asyncio
+from dotenv import dotenv_values
+bot_key = dotenv_values('src/Tools_for_bot/credentials.env').get('BOT_KEY')
 
 
 class AntiSpamBot:
@@ -25,5 +27,5 @@ class AntiSpamBot:
 
 
 if __name__ == '__main__':
-    bot = AntiSpamBot('7053562789:AAEF1X5gMgTgfyTTdcvKziHp7hxkDbEgK6U')
+    bot = AntiSpamBot(bot_key)
     asyncio.run(bot.run_bot())
