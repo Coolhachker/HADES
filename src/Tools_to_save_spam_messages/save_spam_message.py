@@ -57,6 +57,7 @@ class SaverMessages:
                 user_message = await self.client.get_messages(chat_url, ids=message)
                 self.write_spam_message_in_file(user_message.message.replace('\n', ' ').replace(';', ''))
             except Exception as _ex:
+                logger.error('поймал ошибку: ', exc_info=_ex)
                 logger.debug(f'Сообщение: {message} не удалось получить из чата {chat_url}')
                 continue
 
@@ -76,15 +77,18 @@ class SaverMessages:
         logger.info(f'Каналы: {channels}')
         for channel in channels:
             logger.info(f'Итерируемый канал: {channel}')
-            count: int = 0
-            async for message in self.client.iter_messages(channel):
-                logger.debug(f'Сообщение: {message} из канала {channel}')
-                try:
-                    if count != 75:
-                        self.write_spam_message_in_file(message.text.replace('\n', ' ').replace(';', ''))
-                        logger.debug(f'Сообщение сохранилось: {message}')
-                        count += 1
-                    else:
-                        break
-                except:
-                    continue
+            await self.iter_messages_in_chat(channel)
+
+    async def iter_messages_in_chat(self, channel):
+        count: int = 0
+        async for message in self.client.iter_messages(channel):
+            logger.debug(f'Сообщение: {message} из канала {channel}')
+            try:
+                if count != 75:
+                    self.write_spam_message_in_file(message.text.replace('\n', ' ').replace(';', ''))
+                    logger.debug(f'Сообщение сохранилось: {message}')
+                    count += 1
+                else:
+                    break
+            except:
+                continue
